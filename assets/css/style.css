@@ -1,0 +1,187 @@
+
+
+
+
+body{
+    width: 100vw;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 16px;
+}
+
+h1{
+    color:#fff;
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform:uppercase;
+    
+}
+
+p{
+    color: #050505;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-indent: 1rem;
+}
+
+
+h3{
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height:30px;
+}
+img {
+    width: 500px;
+}
+ /***************HEADER*****************/
+header{
+    background-image: url('../images/header-background.png');
+    width: 100%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+.header-content{
+    width: 70%;
+    max-width: 37.25rem;
+}
+
+
+.header-content h1{
+    text-align: center;
+    width: 17rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.header-content p{
+    color:#fff;
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+
+}
+
+
+.header-button #download,
+#web{
+     width:50%;
+     height:3.105rem;
+     padding-left: 1px;
+     padding-right: 1px;
+     margin-top: 20px;
+     font-size: 1rem;
+     cursor: pointer;
+    border-radius: 25px;
+    
+
+
+}
+.header-button #download{
+
+    background-color: #fff;
+    color:#000;
+    float: left;
+    
+}
+.header-button #web{
+    background-color:rgb(63, 62, 62);
+    color: #fff;
+    float: right;
+
+}
+/************************MAIN*******************************/
+main{
+    margin: auto;
+    
+    
+}
+
+.discord-servers,
+.discord-members,
+.discord-channel,
+.discord-connection{
+    
+display: flex;
+flex-direction:row;
+justify-content:center;
+align-items:center;
+margin-right: 100px;
+margin-left: 150px;
+margin-top: 100px;
+padding: auto;
+
+}
+.discord-channel{
+    flex-direction: row-reverse;
+    
+}
+.discord-connection{
+flex-direction:column;
+
+}
+.info-discord-connection {
+    text-align: center;
+     
+}
+
+.discord-connection .info-discord-connection p{
+    padding-top: 20px;
+    
+}
+
+.discord-servers   .image-discord-servers,
+.discord-channel  .image-discord-channel,
+.discord-members  .image-discord-members,
+.discord-connection .image-discord-connection{
+    display:flex;
+    justify-content: center;
+    margin:auto;
+
+}
+
+
+.discord-servers  .info-discord-servers,
+.discord-channel  .info-discord-channel,
+.discord-members  .info-discord-members,
+.discord-connection .info-discord-connection {
+      padding-bottom: 20px;
+      font-size: 2rem; 
+      line-height:30px;
+
+} 
+
+
+
+
+/*************************FOOTER***************************/
+footer{
+    /*background-image: url('/assets/images/background-branco.jpg');
+    */
+    background-color: #5865f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem 8rem 3.19rem 8rem;
+    
+}
+
+
+footer img{
+    width:400px ;
+    height: 200px;
+}
+
+
+
+
+
+

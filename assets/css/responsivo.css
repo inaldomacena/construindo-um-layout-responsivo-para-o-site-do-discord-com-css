@@ -1,0 +1,73 @@
+
+
+
+
+
+/***********************MEDIA QUERIES************************/
+
+
+@media screen and (max-width:550px) {
+      
+    
+    h1,
+    h3{
+        font-family: 'Luckiest Guy', cursive;
+        text-transform: capitalize;
+        margin-left: 3px;
+        margin-bottom: 2px;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+
+
+     .header{
+        width: 100%;
+        
+     }
+
+main{
+    width: 100%;
+}
+    .discord-servers,
+    .discord-channel,
+    .discord-members{
+     display: flex;
+     flex-wrap: wrap;
+
+    }
+
+.discord-servers  .info-discord-servers,
+.discord-channel  .info-discord-channel,
+.discord-members  .info-discord-members,
+.discord-connection .info-discord-connection{
+      font-size: 2rem; 
+      
+      
+      
+
+} 
+.discord-servers   .image-discord-servers,
+.discord-channel  .image-discord-channel,
+.discord-members  .image-discord-members,
+.discord-connection .image-discord-connection{
+    display:flex;
+    justify-content: center;
+    margin:auto;
+    
+    
+    
+}
+
+.discord-servers  .info-discord-servers h3,
+.discord-channel  .info-discord-channel h3,
+.discord-members  .info-discord-members h3,
+.discord-connection .info-discord-connection h3{
+    line-height:35px;
+      
+}
+
+}
